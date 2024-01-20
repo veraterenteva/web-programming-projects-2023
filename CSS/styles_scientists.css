@@ -1,0 +1,90 @@
+body {
+    background-color: #F2F2F2;
+}
+
+
+.mainPageUser, .currentWorkPlace {
+    font-family: Verdana;
+    text-align: center;
+    text-transform: uppercase;
+    width: 1400px;
+    font-weight: lighter;
+}
+
+h2 { 
+    text-align: center; 
+    border: 1px solid #070C26;
+    font-family: Verdana;
+    width: 1400px;
+    line-height: normal;
+  }
+
+
+p {
+    color: #070C26;
+    font-family: Verdana;
+    margin-left: 15px;
+}
+
+h3 { 
+    text-align: center; 
+    font-family: Verdana;
+    color: hsl(220, 90%, 29%);
+  }
+
+.scientificInterestsList, .skillsList {
+    margin-left: 30px;
+  }
+
+.successFormula {
+    padding: 10px;
+    text-decoration: underline;
+  }
+
+img {
+    display: block;
+    margin-left: 550px;
+    margin-right: 550px;
+    width: 20%;
+    filter: drop-shadow(0 0 2px #07338C);
+  }
+
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 14px 'Verdana';
+	padding: 10px;
+}
+
+.topMenu li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+
+.topMenu li.active {
+	background: #07338C;
+	color: #F2F2F2;
+}
+
+.topMenu a {
+	color: #69788C;
+    transition: background-color 0.5s;
+}
+
+
+.topMenu a:hover {
+    background: #5F49F2;
+    display: inline-block;
+	padding: 5px 5px;
+	color: #F2F2F2;
+}
+  

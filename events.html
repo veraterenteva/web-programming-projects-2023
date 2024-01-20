@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="события, список событий">
+    <title> События </title>
+    <meta name="description" content="Список событий">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/form.css">
+    <script src="Scripts/loadtime.js"></script>
+    <script src="Scripts/form.js" defer></script>
+
+</head>
+<body>
+  <header>
+    <ul class="topMenu">
+      <li><a href="index.html">Главная</a></li>
+      <li class="active">События</li>
+      <li><a href="scientists.html">Учёные</a></li>
+      <li><a href="laboratories.html">Лаборатории</a></li>
+      <li><a href="organizations.html">Организации</a></li>
+    </ul>
+
+    <h3 class="currentWorkPlace">
+      События
+    </h3>
+
+  </header>
+
+<main>
+    <div class="todo__container">
+        <div class="todo-input-container">
+            <label>
+                <input type="text" placeholder="Хотелка"
+                       class="todo-input-field">
+            </label>
+
+            <button class="todo-input-submit">Добавить хотелку</button>
+        </div>
+
+        <div>
+            <button type="submit" id="button-clear-completed">Очистить все хотелки</button>
+        </div>
+
+        <div>
+            <label for="ntasks">Количество хотелок на неделю:</label>
+            <select name="ntasks" id="ntasks">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select><br>
+        </div>
+    </div>
+
+    <div id="task-table-container">
+    </div>
+</main>
+<footer>
+</footer>
+
+</body>
+</html>
